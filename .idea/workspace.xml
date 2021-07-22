@@ -1,7 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="768d9092-89d6-4f52-a0f7-85b735c9e1f4" name="Default Changelist" comment="" />
+    <list default="true" id="768d9092-89d6-4f52-a0f7-85b735c9e1f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataOneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataTwoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/ThankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/Dataset1Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/Dataset2Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset1_1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset1_2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset1_3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset2_1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset2_2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset2_3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset3_1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset3_2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset3_3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset1-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset1-5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset2-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset2-5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset3-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset3-5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/configurer/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/configurer/MyMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/TrainingDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/TrainingDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/TrainingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/TrainingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/service/TrainingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/service/TrainingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_demo_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_3.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +128,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="individualproject" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,13 +140,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1soqHSFSvuQcuk2BmnQTqfbLatn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -46,7 +163,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../125" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,11 +179,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sq.project.mapper" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\individualproject\src\main\resources\static\video" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sq.project.bean" />
+      <recent name="com.sq.project.mapper" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEA\individualproject\src\main\resources\templates" />
+      <recent name="D:\IDEA\individualproject\src\main\resources\static\video" />
       <recent name="D:\IDEA\individualproject\src\main\resources\static" />
     </key>
   </component>
@@ -90,10 +215,17 @@
     <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="individualproject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sq.project.ProjectApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.InfoMapperTest.test" />
+      <item itemvalue="Spring Boot.ProjectApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InfoMapperTest.test" />
@@ -123,21 +255,29 @@
       <workItem from="1625280446153" duration="4311000" />
       <workItem from="1625585777438" duration="1097000" />
       <workItem from="1625990931728" duration="1319000" />
+      <workItem from="1626614043134" duration="10032000" />
+      <workItem from="1626703918280" duration="6765000" />
+      <workItem from="1626789851405" duration="9951000" />
+      <workItem from="1626878632484" duration="1802000" />
+      <workItem from="1626956539108" duration="5100000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Project_Structure" timestamp="1621549226830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1621549226830" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625991024103">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626614653778">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1625991024103" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1626614653778" />
     <state x="392" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621558131362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -146,66 +286,70 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1625245179851" />
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1624250236266">
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626707321227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624250236266" />
-    <state width="1237" height="62" key="GridCell.Tab.0.bottom" timestamp="1626051383440">
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1626707321227" />
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1626878642490">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626051383440" />
-    <state width="1237" height="62" key="GridCell.Tab.0.center" timestamp="1626051383440">
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626878642490" />
+    <state width="618" height="15" key="GridCell.Tab.0.bottom" timestamp="1626961230419">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626051383440" />
-    <state width="1237" height="62" key="GridCell.Tab.0.left" timestamp="1626051383440">
+    <state width="618" height="15" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
+    <state width="618" height="15" key="GridCell.Tab.0.center" timestamp="1626961230419">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626051383440" />
-    <state width="1237" height="62" key="GridCell.Tab.0.right" timestamp="1626051383440">
+    <state width="618" height="15" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
+    <state width="618" height="15" key="GridCell.Tab.0.left" timestamp="1626961230419">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626051383440" />
-    <state width="1237" height="62" key="GridCell.Tab.1.bottom" timestamp="1626051383441">
+    <state width="618" height="15" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
+    <state width="618" height="15" key="GridCell.Tab.0.right" timestamp="1626961230419">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626051383441" />
-    <state width="1237" height="62" key="GridCell.Tab.1.center" timestamp="1626051383440">
+    <state width="618" height="15" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
+    <state width="618" height="15" key="GridCell.Tab.1.bottom" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626051383440" />
-    <state width="1237" height="62" key="GridCell.Tab.1.left" timestamp="1626051383440">
+    <state width="618" height="15" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="15" key="GridCell.Tab.1.center" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626051383440" />
-    <state width="1237" height="62" key="GridCell.Tab.1.right" timestamp="1626051383441">
+    <state width="618" height="15" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="15" key="GridCell.Tab.1.left" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626051383441" />
-    <state width="1237" height="62" key="GridCell.Tab.2.bottom" timestamp="1626051383441">
+    <state width="618" height="15" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="15" key="GridCell.Tab.1.right" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626051383441" />
-    <state width="1237" height="62" key="GridCell.Tab.2.center" timestamp="1626051383441">
+    <state width="618" height="15" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="15" key="GridCell.Tab.2.bottom" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1626051383441" />
-    <state width="1237" height="62" key="GridCell.Tab.2.left" timestamp="1626051383441">
+    <state width="618" height="15" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="15" key="GridCell.Tab.2.center" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1626051383441" />
-    <state width="1237" height="62" key="GridCell.Tab.2.right" timestamp="1626051383441">
+    <state width="618" height="15" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="15" key="GridCell.Tab.2.left" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1626051383441" />
+    <state width="618" height="15" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="15" key="GridCell.Tab.2.right" timestamp="1626961230420">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="15" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
     <state width="646" height="346" key="XDebugger.FullValuePopup" timestamp="1625236018062">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="646" height="346" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1625236018062" />
-    <state x="336" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1625990944779">
+    <state x="336" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1626956539961">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1625990944779" />
+    <state x="336" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1626956539961" />
     <state x="412" y="71" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1621721835217">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

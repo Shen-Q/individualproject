@@ -39,6 +39,12 @@ public class IndexController {
     }
 
 
+    @RequestMapping("/to_ques2")
+    public String indexToQues2(){
+        return "training_question_2_2";
+    }
+
+
     @PostMapping("/login")
     public String login(HttpServletRequest request, HttpServletResponse response, HttpSession session, User user){
         infoService.login(request,response,session,user);
