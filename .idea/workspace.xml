@@ -2,112 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768d9092-89d6-4f52-a0f7-85b735c9e1f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataOneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataTwoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/ThankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/Dataset1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/Dataset2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset1_1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset1_2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset1_3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset2_1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset2_2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset2_3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset3_1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset3_2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/20210718_dataset3_3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset1-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset1-5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset2-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset2-5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset3-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/video/dataset3-5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data1_demo_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/data2_demo_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_introduction_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_introduction_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/configurer/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/configurer/MyMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/TrainingDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/TrainingDemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/TrainingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/mapper/TrainingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/service/TrainingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/service/TrainingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_demo_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/info1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/info1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +154,7 @@
       <workItem from="1626703918280" duration="6765000" />
       <workItem from="1626789851405" duration="9951000" />
       <workItem from="1626878632484" duration="1802000" />
-      <workItem from="1626956539108" duration="5100000" />
+      <workItem from="1626956539108" duration="6979000" />
     </task>
     <servers />
   </component>
@@ -294,38 +189,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626878642490" />
-    <state width="618" height="15" key="GridCell.Tab.0.bottom" timestamp="1626961230419">
+    <state width="834" height="285" key="GridCell.Tab.0.bottom" timestamp="1626967430881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
-    <state width="618" height="15" key="GridCell.Tab.0.center" timestamp="1626961230419">
+    <state width="834" height="285" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626967430881" />
+    <state width="834" height="285" key="GridCell.Tab.0.center" timestamp="1626967430881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
-    <state width="618" height="15" key="GridCell.Tab.0.left" timestamp="1626961230419">
+    <state width="834" height="285" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626967430881" />
+    <state width="834" height="285" key="GridCell.Tab.0.left" timestamp="1626967430881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
-    <state width="618" height="15" key="GridCell.Tab.0.right" timestamp="1626961230419">
+    <state width="834" height="285" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626967430881" />
+    <state width="834" height="285" key="GridCell.Tab.0.right" timestamp="1626967430881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626961230419" />
-    <state width="618" height="15" key="GridCell.Tab.1.bottom" timestamp="1626961230420">
+    <state width="834" height="285" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626967430881" />
+    <state width="618" height="256" key="GridCell.Tab.1.bottom" timestamp="1626962397747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
-    <state width="618" height="15" key="GridCell.Tab.1.center" timestamp="1626961230420">
+    <state width="618" height="256" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626962397747" />
+    <state width="618" height="256" key="GridCell.Tab.1.center" timestamp="1626962397747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
-    <state width="618" height="15" key="GridCell.Tab.1.left" timestamp="1626961230420">
+    <state width="618" height="256" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626962397747" />
+    <state width="618" height="256" key="GridCell.Tab.1.left" timestamp="1626962397747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
-    <state width="618" height="15" key="GridCell.Tab.1.right" timestamp="1626961230420">
+    <state width="618" height="256" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626962397747" />
+    <state width="618" height="256" key="GridCell.Tab.1.right" timestamp="1626962397747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="15" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626961230420" />
+    <state width="618" height="256" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626962397747" />
     <state width="618" height="15" key="GridCell.Tab.2.bottom" timestamp="1626961230420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
