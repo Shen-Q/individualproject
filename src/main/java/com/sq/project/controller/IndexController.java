@@ -3,6 +3,7 @@ package com.sq.project.controller;
 
 import com.sq.project.bean.User;
 import com.sq.project.service.InfoService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 @Controller
+@Slf4j
 public class IndexController {
 
     @Autowired
