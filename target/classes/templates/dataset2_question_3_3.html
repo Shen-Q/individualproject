@@ -35,18 +35,11 @@
 
     <!-- body content start-->
     <div class="body-con" style="height:500px;width: available">
-<!--        <div class="header-section" >-->
-<!--            <div class="progress" style="margin: 10px" >-->
-<!--                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">-->
-<!--                    60%-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
 
         <!-- page head start-->
         <div class="page-head">
             <h3 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center">
-                Please answer the question. ( 3/3 )
+                Which company has the lowest value on Thursday?
             </h3>
 
         </div>
@@ -54,30 +47,32 @@
         <section class="panel">
             <!--body wrapper start-->
             <div class="wrapper" >
-                <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >
-                    Which company has the lowest value on Thursday?
-                </h4>
-                <br>
+<!--                <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >-->
+<!--                    Which company has the lowest value on Thursday?-->
+<!--                </h4>-->
+<!--                <br>-->
                 <br>
                 <div class="form-group" id="toastTypeGroup">
                     <div class="radio-custom radio-primary" style="font-family: 'Lucida Sans';
-                    font-size: 16px;margin-left: 30%;">
+                    font-size: 26px;margin-left: 30%;">
                         <input type="radio" name="toasts" value="A" id="success" onclick="a(this)">
                         <label for="success">
-                            A.Nvidia</label>
+                            Nvidia</label>
+                        <br>
                         <br>
                         <br>
                         <input type="radio" name="toasts" value="B" id="info-t" onclick="a(this)">
-                        <label for="info-t">B.Google </label>
+                        <label for="info-t">Google </label>
+                        <br>
                         <br>
                         <br>
                         <input type="radio"  name="toasts" value="C" id="warning"onclick="a(this)">
-                        <label for="warning">C.Amazon</label>
+                        <label for="warning">Amazon</label>
                         <br>
                         <br>
-
+                        <br>
                         <input type="radio"  name="toasts" value="D" id="error" onclick="a(this)">
-                        <label for="error">D.Facebook</label>
+                        <label for="error">Facebook</label>
                         <br>
                         <br>
 
@@ -168,7 +163,8 @@
         var answer =  document.getElementById("answer").value;
         var time = document.getElementById("time").value;
         console.log('time='+time);
-        window.location.href = "/to_dataset2_introduction_4/"+answer+"/"+time;
+        // window.location.href = "/to_dataset2_introduction_4/"+answer+"/"+time;
+        window.location.href = "/to_data2_demo_4/"+answer+"/"+time;
     }
 </script>
 
