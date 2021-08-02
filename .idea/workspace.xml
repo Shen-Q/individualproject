@@ -7,24 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="768d9092-89d6-4f52-a0f7-85b735c9e1f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/individualproject_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/individualproject_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/SpringBootStartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/individualproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/individualproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sq/project/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sq/project/bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/studying.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/configurer/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/configurer/MyMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataOneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataOneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataTwoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/DataTwoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/TrainingDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sq/project/controller/TrainingDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_introduction_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_1_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_2_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_3_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_4_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset1_question_5_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_1_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_2_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_3_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_4_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataset2_question_5_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/info1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/info1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/thankspage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/thankspage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_demo_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_demo_submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_demo_submit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_1_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_2_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_3_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_4_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/training_question_5_3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +134,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../125" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -109,13 +150,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sq.project.mapper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEA\individualproject\src\main\resources\static\video" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sq.project.bean" />
-      <recent name="com.sq.project.mapper" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -123,6 +157,13 @@
       <recent name="D:\IDEA\individualproject\src\main\resources\templates" />
       <recent name="D:\IDEA\individualproject\src\main\resources\static\video" />
       <recent name="D:\IDEA\individualproject\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sq.project.bean" />
+      <recent name="com.sq.project.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\individualproject\src\main\resources\static\video" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.61">
@@ -305,17 +346,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -358,6 +389,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
@@ -378,10 +420,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1625245179851" />
-    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626707321227">
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627894701779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1626707321227" />
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627894701779" />
+    <state x="54" y="106" width="1093" height="485" key="DiffContextDialog" timestamp="1627895108817">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="54" y="106" width="1093" height="485" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627895108817" />
     <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1627135714984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
