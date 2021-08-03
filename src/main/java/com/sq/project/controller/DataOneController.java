@@ -81,9 +81,11 @@ public class DataOneController {
         return "redirect:/studying";
     }
 
-    @RequestMapping({"/to_data1_demo_1"})
-    public String indexToData1Demo1() {
-        return "data1_demo_1";
+    @RequestMapping({"/to_data1_demo_1/{a}/{t}"})
+    public String indexToData1Demo1(HttpSession session, @PathVariable("a") String answer, @PathVariable("t") int reactionTime) {
+        session.setAttribute("dataset2_answer_3_3", answer);
+        session.setAttribute("dataset2_reaction_3_3", reactionTime);
+        return "redirect:/data1_demo_1";
     }
 
     @RequestMapping({"/to_data1_demo_2/{a}/{t}"})
@@ -95,22 +97,20 @@ public class DataOneController {
 
     @RequestMapping({"/to_data1_demo_3/{a}/{t}"})
     public String indexToData1Demo3(HttpSession session, @PathVariable("a") String answer, @PathVariable("t") int reactionTime) {
-        session.setAttribute("dataset1_answer_2_3", answer);
-        session.setAttribute("dataset1_reaction_2_3", reactionTime);
+        session.setAttribute("dataset2_answer_5_3", answer);
+        session.setAttribute("dataset2_reaction_5_3", reactionTime);
         return "redirect:/data1_demo_3";
     }
 
-    @RequestMapping({"/to_data1_demo_4/{a}/{t}"})
-    public String indexToData1Demo4(HttpSession session, @PathVariable("a") String answer, @PathVariable("t") int reactionTime) {
-        session.setAttribute("dataset1_answer_3_3", answer);
-        session.setAttribute("dataset1_reaction_3_3", reactionTime);
-        return "redirect:/data1_demo_4";
+    @RequestMapping({"/to_data1_demo_4"})
+    public String indexToData1Demo4() {
+        return "data1_demo_4";
     }
 
     @RequestMapping({"/to_data1_demo_5/{a}/{t}"})
     public String indexToData1Demo5(HttpSession session, @PathVariable("a") String answer, @PathVariable("t") int reactionTime) {
-        session.setAttribute("dataset1_answer_4_3", answer);
-        session.setAttribute("dataset1_reaction_4_3", reactionTime);
+        session.setAttribute("dataset2_answer_4_3", answer);
+        session.setAttribute("dataset2_reaction_4_3", reactionTime);
         return "redirect:/data1_demo_5";
     }
 

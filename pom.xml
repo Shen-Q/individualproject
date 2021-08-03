@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.sq</groupId>
     <artifactId>project</artifactId>
-    <version>sq-project</version>
+    <version>sq-0803</version>
     <name>project</name>
     <packaging>war</packaging>
     <description>Demo project for Spring Boot</description>
