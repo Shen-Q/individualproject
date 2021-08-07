@@ -37,7 +37,7 @@
         <!-- page head start-->
         <div class="page-head">
             <h3 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center">
-                Please answer the question. ( 3/3 )
+                Which country has death rate of 6.5% on the 3rd of July?
             </h3>
 
         </div>
@@ -45,30 +45,33 @@
         <section class="panel">
             <!--body wrapper start-->
             <div class="wrapper" >
-                <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >
-                    Which country has death rate of 6.5% on the 3rd of July?
-                </h4>
-                <br>
+<!--                <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >-->
+<!--                    Which country has death rate of 6.5% on the 3rd of July?-->
+<!--                </h4>-->
+<!--                <br>-->
                 <br>
                 <div class="form-group" id="toastTypeGroup">
                     <div class="radio-custom radio-primary" style="font-family: 'Lucida Sans';
-                    font-size: 16px;margin-left: 30%;">
+                    font-size: 26px;margin-left: 30%;">
                         <input type="radio" name="toasts" value="A" id="success" onclick="a(this)">
                         <label for="success">
-                            A.Norway</label>
+                            Norway</label>
+                        <br>
                         <br>
                         <br>
                         <input type="radio" name="toasts" value="B" id="info-t" onclick="a(this)">
-                        <label for="info-t">B.France</label>
+                        <label for="info-t">France</label>
+                        <br>
                         <br>
                         <br>
                         <input type="radio"  name="toasts" value="C" id="warning"onclick="a(this)">
-                        <label for="warning">C.Iraq</label>
+                        <label for="warning">Iraq</label>
+                        <br>
                         <br>
                         <br>
 
                         <input type="radio"  name="toasts" value="D" id="error" onclick="a(this)">
-                        <label for="error">D.Indonesia </label>
+                        <label for="error">Indonesia </label>
                         <br>
                         <br>
 
@@ -160,7 +163,8 @@
         var answer =  document.getElementById("answer").value;
         var time = document.getElementById("time").value;
         console.log('time='+time);
-        window.location.href = "/to_training_introduction_4/" +answer+"/"+time;
+        // window.location.href = "/to_training_introduction_4/" +answer+"/"+time;
+        window.location.href = "/to_training_demo_4/"+answer+"/"+time;
     }
 </script>
 

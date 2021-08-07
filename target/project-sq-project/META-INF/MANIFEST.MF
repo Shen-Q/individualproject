@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: wzy
+Build-Jdk: 1.8.0_281
+Implementation-Title: project
+Implementation-Version: sq-0803
+Implementation-Vendor-Id: com.sq
+Main-Class: ${start-class}
+

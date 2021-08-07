@@ -35,16 +35,6 @@
     <!-- body content start-->
     <div class="body-content" style="min-height: 900px; width: available">
 
-
-        <div class="header-section" >
-            <!--            <div class="progress" style="margin: 10px" >-->
-            <!--                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">-->
-            <!--                    60%-->
-            <!--                </div>-->
-            <!--            </div>-->
-        </div>
-
-
         <!-- page head start-->
         <div class="page-head">
             <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center">
@@ -52,11 +42,16 @@
             </h4>
 
             <section class="panel">
-                <!--                <header class="panel-heading">-->
-                <!--                    Basic Progress Bars-->
-                <!--                </header>-->
 
                 <div class="panel-body">
+                    <br>
+                    <label style="font-family: 'Lucida Sans';font-size: 14px;font-weight:bold"> * Please enter your Prolific ID:  </label>
+                    <input id="toasts10" type="text" value="" class="btn btn-default" style="font-family: 'Lucida Sans';font-size: 14px;margin-left: 30px"/>
+
+                    <br>
+                    <br>
+                    <br>
+
                     <label style="font-family: 'Lucida Sans';font-size: 14px">1. Have you taken this test before?   </label>
                     <select id="toasts1" class="btn btn-default" style="font-family: 'Lucida Sans';font-size: 14px;margin-left: 30px">
                         <option value="none" selected disabled hidden> select an option</option>
@@ -612,87 +607,35 @@
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
 
+                    <br>
+                    <br>
+                    <br>
+
+                    <label style="font-family: 'Lucida Sans';font-size: 14px">9. Is English your first language?   </label>
+                    <select id="toasts9" class="btn btn-default" style="font-family: 'Lucida Sans';font-size: 14px;margin-left: 30px">
+                        <option value="none" selected disabled hidden> select an option</option>
+                        <option value ="No">No</option>
+                        <option value ="Yes">Yes</option>
+                    </select>
+
+                    <br>
+                    <br>
 
                 </div>
 
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="#">
+                    <button type="button" onclick="test();" class="btn btn-success m-b-10" style="position: absolute;left: 42%;font-family: Cambria;font-size: 26px"> Submit !</button>
+                </a>
+                <br>
+                <br>
+                <br>
+                <br>
 
             </section>
-
-            <!--            <section class="panel">-->
-            <!--                <header class="panel-heading">-->
-            <!--                    What age group do you fall into?-->
-            <!--                </header>-->
-            <!--                <div class="panel-body">-->
-            <!--                    <div class="form-group" name="toastTypeGroup3">-->
-            <!--                        <div class="radio-custom radio-primary" name="2" aria-required="true">-->
-            <!--                            <input type="radio" name="toasts3" value="20" id="twenty">-->
-            <!--                            <label for="twenty">lower than 20</label>-->
-
-            <!--                            <input type="radio" name="toasts3" value="30" id="thirty">-->
-            <!--                            <label for="thirty">20 to 30</label>-->
-
-            <!--                            <input type="radio"  name="toasts3" value="40" id="fourty">-->
-            <!--                            <label for="fourty">30 to 40</label>-->
-
-            <!--                            <input type="radio"  name="toasts3" value="50" id="fifty">-->
-            <!--                            <label for="fifty">above 40</label>-->
-
-            <!--                        </div>-->
-            <!--                    </div>-->
-
-            <!--                </div>-->
-            <!--            </section>-->
-
-            <!--            <section class="panel">-->
-            <!--                <header class="panel-heading">-->
-            <!--                    What is the highest level of education you have received or are currently pursuing?-->
-            <!--                </header>-->
-            <!--                <div class="panel-body">-->
-            <!--                    <div class="form-group" id="toastTypeGroup4">-->
-
-            <!--                        <div class="radio-custom radio-primary" name="4" aria-required="true">-->
-            <!--                            <input type="radio" name="toasts4" value="highschool" id="highschool">-->
-            <!--                            <label for="highschool">High school and below</label>-->
-
-            <!--                            <input type="radio" name="toasts4" value="undergraduated" id="undergraduated">-->
-            <!--                            <label for="undergraduated">Undergraduated</label>-->
-
-            <!--                            <input type="radio" name="toasts4" value="graduated" id="graduated">-->
-            <!--                            <label for="graduated">Master</label>-->
-
-            <!--                            <input type="radio" name="toasts4" value="doctor" id="doctor">-->
-            <!--                            <label for="doctor">Doctor and above</label>-->
-
-
-            <!--                        </div>-->
-            <!--                    </div>-->
-
-            <!--                    </div>-->
-
-            <!--            </section>-->
-
-            <!--            <section class="panel">-->
-            <!--                <header class="panel-heading">-->
-            <!--                    Where are you from?-->
-            <!--                </header>-->
-            <!--                <div class="panel-body">-->
-            <!--                    <div class="form-group" id="toastTypeGroup5">-->
-
-            <!--                        <select class="form-control m-b-10" id="toasts5">-->
-            <!--                            <option name="toasts5" value="null">-&#45;&#45;&#45;&#45;</option>-->
-            <!--                            <option name="toasts5" value="Afirca">Africa</option>-->
-            <!--                            <option name="toasts5" value="Asia">Asia</option>-->
-            <!--                            <option name="toasts5" value="Europen">Europe</option>-->
-            <!--                            <option name="toasts5" value="Oceania">Oceania</option>-->
-            <!--                            <option name="toasts5" value="North America">North America</option>-->
-            <!--                            <option name="toasts5" value="South America">South America</option>-->
-
-            <!--                        </select>-->
-            <!--                    </div>-->
-
-            <!--                </div>-->
-
-            <!--            </section>-->
 
 
             <!-- page head end-->
@@ -705,16 +648,19 @@
                     <input name="userWork" >
                     <input name="userChildhood" >
                     <input name="userFrom" >
+                    <input name="userLanguage">
+                    <input name="prolificId">
                 </form>
 
         </div>
         <br>
 
-        <section class="panel" >
-            <a href="#">
-                <button type="button" onclick="test();" class="btn btn-success m-b-10" style="position: absolute;left: 45%;font-family: Cambria;font-size: 18px"> Submit !</button>
-            </a>
-        </section>
+
+<!--        <section class="panel" >-->
+<!--            <a href="#">-->
+<!--                <button type="button" onclick="test();" class="btn btn-success m-b-10" style="position: absolute;left: 45%;font-family: Cambria;font-size: 18px"> Submit !</button>-->
+<!--            </a>-->
+<!--        </section>-->
 
     </div>
     <!-- body content end-->
@@ -771,7 +717,11 @@
         var d8=document.getElementById("toasts8");
         var index8=d8.selectedIndex ;
         var v8 = d8.options[index8].value;
-        if(v1=="none"||v2=="none"||v3=="none"||v4=="none"||v5=="none"||v6=="none"||v7=="none"||v8=="none"){
+        var d9=document.getElementById("toasts9");
+        var index9=d9.selectedIndex ;
+        var v9 = d9.options[index9].value;
+        var v10=document.getElementById("toasts10").value;
+        if(v1=="none"||v2=="none"||v3=="none"||v4=="none"||v5=="none"||v6=="none"||v7=="none"||v8=="none"||v9=="none"||v10==""){
             alert(" Please check the choice ")
             return false;
         }
@@ -785,7 +735,7 @@
             return false;
         }
 
-        console.log(v1+","+v2);
+        console.log(v10);
 
         pageform.userIsTested.value = v1;
         pageform.userDevice.value = v2;
@@ -795,6 +745,8 @@
         pageform.userWork.value = v6;
         pageform.userChildhood.value = v7;
         pageform.userFrom.value = v8;
+        pageform.userLanguage.value = v9;
+        pageform.prolificId.value = v10;
         pageform.submit();
     }
 </script>
