@@ -30,6 +30,7 @@
 <body class="sticky-header">
 
 <section>
+<<<<<<< HEAD
     <!-- sidebar left start-->
     <!-- sidebar left end-->
 
@@ -42,11 +43,20 @@
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
+=======
+
+    <!-- body content start-->
+    <div class="body-con" style="height:500px;width: available">
+>>>>>>> origin/tomcat
 
         <!-- page head start-->
         <div class="page-head">
             <h3 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center">
+<<<<<<< HEAD
                 Please answer the question. ( 3/3 )
+=======
+                Which country has data 1.0% in 2010?
+>>>>>>> origin/tomcat
             </h3>
 
         </div>
@@ -54,6 +64,7 @@
         <section class="panel">
             <!--body wrapper start-->
             <div class="wrapper" >
+<<<<<<< HEAD
                 <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >
                     Which country has data 1.0% in 2010?
                 </h4>
@@ -78,6 +89,34 @@
 
                         <input type="radio"  name="toasts" value="D" id="error" onclick="a(this)">
                         <label for="error">D.Bahamas </label>
+=======
+<!--                <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >-->
+<!--                    Which country has data 1.0% in 2010?-->
+<!--                </h4>-->
+<!--                <br>-->
+                <br>
+                <div class="form-group" id="toastTypeGroup">
+                    <div class="radio-custom radio-primary" style="font-family: 'Lucida Sans';
+                    font-size: 26px;margin-left: 30%;">
+                        <input type="radio" name="toasts" value="A" id="success" onclick="a(this)">
+                        <label for="success">
+                            Haiti</label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio" name="toasts" value="B" id="info-t" onclick="a(this)">
+                        <label for="info-t">Oman </label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio"  name="toasts" value="C" id="warning"onclick="a(this)">
+                        <label for="warning">Kuwait</label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio"  name="toasts" value="D" id="error" onclick="a(this)">
+                        <label for="error">Bahamas </label>
+>>>>>>> origin/tomcat
                         <br>
                         <br>
 
@@ -168,7 +207,12 @@
         var answer =  document.getElementById("answer").value;
         var time = document.getElementById("time").value;
         console.log('time='+time);
+<<<<<<< HEAD
         window.location.href = "/to_dataset2_introduction_1/"+answer+"/"+time;
+=======
+        // window.location.href = "/to_dataset2_introduction_1/"+answer+"/"+time;
+        window.location.href = "/to_submit_page/"+answer+"/"+time;
+>>>>>>> origin/tomcat
     }
 </script>
 

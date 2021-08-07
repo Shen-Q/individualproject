@@ -35,6 +35,7 @@
     <!-- body content start-->
     <div class="body-content" style="min-height: 900px; width: available">
 
+<<<<<<< HEAD
 
         <div class="header-section" >
             <!--            <div class="progress" style="margin: 10px" >-->
@@ -45,6 +46,8 @@
         </div>
 
 
+=======
+>>>>>>> origin/tomcat
         <!-- page head start-->
         <div class="page-head">
             <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center">
@@ -52,11 +55,24 @@
             </h4>
 
             <section class="panel">
+<<<<<<< HEAD
                 <!--                <header class="panel-heading">-->
                 <!--                    Basic Progress Bars-->
                 <!--                </header>-->
 
                 <div class="panel-body">
+=======
+
+                <div class="panel-body">
+                    <br>
+                    <label style="font-family: 'Lucida Sans';font-size: 14px;font-weight:bold"> * Please enter your Prolific ID:  </label>
+                    <input id="toasts10" type="text" value="" class="btn btn-default" style="font-family: 'Lucida Sans';font-size: 14px;margin-left: 30px"/>
+
+                    <br>
+                    <br>
+                    <br>
+
+>>>>>>> origin/tomcat
                     <label style="font-family: 'Lucida Sans';font-size: 14px">1. Have you taken this test before?   </label>
                     <select id="toasts1" class="btn btn-default" style="font-family: 'Lucida Sans';font-size: 14px;margin-left: 30px">
                         <option value="none" selected disabled hidden> select an option</option>
@@ -612,6 +628,7 @@
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
 
+<<<<<<< HEAD
 
                 </div>
 
@@ -693,6 +710,37 @@
             <!--                </div>-->
 
             <!--            </section>-->
+=======
+                    <br>
+                    <br>
+                    <br>
+
+                    <label style="font-family: 'Lucida Sans';font-size: 14px">9. Is English your first language?   </label>
+                    <select id="toasts9" class="btn btn-default" style="font-family: 'Lucida Sans';font-size: 14px;margin-left: 30px">
+                        <option value="none" selected disabled hidden> select an option</option>
+                        <option value ="No">No</option>
+                        <option value ="Yes">Yes</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="#">
+                    <button type="button" onclick="test();" class="btn btn-success m-b-10" style="position: absolute;left: 42%;font-family: Cambria;font-size: 26px"> Submit !</button>
+                </a>
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </section>
+>>>>>>> origin/tomcat
 
 
             <!-- page head end-->
@@ -705,16 +753,30 @@
                     <input name="userWork" >
                     <input name="userChildhood" >
                     <input name="userFrom" >
+<<<<<<< HEAD
+=======
+                    <input name="userLanguage">
+                    <input name="prolificId">
+>>>>>>> origin/tomcat
                 </form>
 
         </div>
         <br>
 
+<<<<<<< HEAD
         <section class="panel" >
             <a href="#">
                 <button type="button" onclick="test();" class="btn btn-success m-b-10" style="position: absolute;left: 45%;font-family: Cambria;font-size: 18px"> Submit !</button>
             </a>
         </section>
+=======
+
+<!--        <section class="panel" >-->
+<!--            <a href="#">-->
+<!--                <button type="button" onclick="test();" class="btn btn-success m-b-10" style="position: absolute;left: 45%;font-family: Cambria;font-size: 18px"> Submit !</button>-->
+<!--            </a>-->
+<!--        </section>-->
+>>>>>>> origin/tomcat
 
     </div>
     <!-- body content end-->
@@ -771,7 +833,15 @@
         var d8=document.getElementById("toasts8");
         var index8=d8.selectedIndex ;
         var v8 = d8.options[index8].value;
+<<<<<<< HEAD
         if(v1=="none"||v2=="none"||v3=="none"||v4=="none"||v5=="none"||v6=="none"||v7=="none"||v8=="none"){
+=======
+        var d9=document.getElementById("toasts9");
+        var index9=d9.selectedIndex ;
+        var v9 = d9.options[index9].value;
+        var v10=document.getElementById("toasts10").value;
+        if(v1=="none"||v2=="none"||v3=="none"||v4=="none"||v5=="none"||v6=="none"||v7=="none"||v8=="none"||v9=="none"||v10==""){
+>>>>>>> origin/tomcat
             alert(" Please check the choice ")
             return false;
         }
@@ -785,7 +855,11 @@
             return false;
         }
 
+<<<<<<< HEAD
         console.log(v1+","+v2);
+=======
+        console.log(v10);
+>>>>>>> origin/tomcat
 
         pageform.userIsTested.value = v1;
         pageform.userDevice.value = v2;
@@ -795,6 +869,11 @@
         pageform.userWork.value = v6;
         pageform.userChildhood.value = v7;
         pageform.userFrom.value = v8;
+<<<<<<< HEAD
+=======
+        pageform.userLanguage.value = v9;
+        pageform.prolificId.value = v10;
+>>>>>>> origin/tomcat
         pageform.submit();
     }
 </script>

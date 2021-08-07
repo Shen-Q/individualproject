@@ -19,10 +19,10 @@ public class MyMvcConfig implements WebMvcConfigurer {
         registry.addViewController("/training_question_4_3").setViewName("training_question_4_3");
         registry.addViewController("/training_question_5_2").setViewName("training_question_5_2");
         registry.addViewController("/training_question_5_3").setViewName("training_question_5_3");
-        registry.addViewController("/training_introduction_2").setViewName("training_introduction_2");
-        registry.addViewController("/training_introduction_3").setViewName("training_introduction_3");
-        registry.addViewController("/training_introduction_4").setViewName("training_introduction_4");
-        registry.addViewController("/training_introduction_5").setViewName("training_introduction_5");
+        registry.addViewController("/training_demo_2").setViewName("training_demo_2");
+        registry.addViewController("/training_demo_3").setViewName("training_demo_3");
+        registry.addViewController("/training_demo_4").setViewName("training_demo_4");
+        registry.addViewController("/training_demo_5").setViewName("training_demo_5");
 
         registry.addViewController("/dataset1_question_1_2").setViewName("dataset1_question_1_2");
         registry.addViewController("/dataset1_question_1_3").setViewName("dataset1_question_1_3");
@@ -34,13 +34,13 @@ public class MyMvcConfig implements WebMvcConfigurer {
         registry.addViewController("/dataset1_question_4_3").setViewName("dataset1_question_4_3");
         registry.addViewController("/dataset1_question_5_2").setViewName("dataset1_question_5_2");
         registry.addViewController("/dataset1_question_5_3").setViewName("dataset1_question_5_3");
-        registry.addViewController("/dataset1_introduction_1").setViewName("dataset1_introduction_1");
-        registry.addViewController("/dataset1_introduction_2").setViewName("dataset1_introduction_2");
-        registry.addViewController("/dataset1_introduction_3").setViewName("dataset1_introduction_3");
-        registry.addViewController("/dataset1_introduction_4").setViewName("dataset1_introduction_4");
-        registry.addViewController("/dataset1_introduction_5").setViewName("dataset1_introduction_5");
 
-        registry.addViewController("/dataset2_introduction_1").setViewName("dataset2_introduction_1");
+        registry.addViewController("/studying").setViewName("studying");
+        registry.addViewController("/data1_demo_1").setViewName("data1_demo_1");
+        registry.addViewController("/data1_demo_2").setViewName("data1_demo_2");
+        registry.addViewController("/data1_demo_3").setViewName("data1_demo_3");
+        registry.addViewController("/data1_demo_4").setViewName("data1_demo_4");
+        registry.addViewController("/data1_demo_5").setViewName("data1_demo_5");
 
         registry.addViewController("/dataset2_question_1_2").setViewName("dataset2_question_1_2");
         registry.addViewController("/dataset2_question_1_3").setViewName("dataset2_question_1_3");
@@ -53,10 +53,11 @@ public class MyMvcConfig implements WebMvcConfigurer {
         registry.addViewController("/dataset2_question_5_2").setViewName("dataset2_question_5_2");
         registry.addViewController("/dataset2_question_5_3").setViewName("dataset2_question_5_3");
 
-        registry.addViewController("/dataset2_introduction_2").setViewName("dataset2_introduction_2");
-        registry.addViewController("/dataset2_introduction_3").setViewName("dataset2_introduction_3");
-        registry.addViewController("/dataset2_introduction_4").setViewName("dataset2_introduction_4");
-        registry.addViewController("/dataset2_introduction_5").setViewName("dataset2_introduction_5");
+        registry.addViewController("/data2_demo_1").setViewName("data2_demo_1");
+        registry.addViewController("/data2_demo_2").setViewName("data2_demo_2");
+        registry.addViewController("/data2_demo_3").setViewName("data2_demo_3");
+        registry.addViewController("/data2_demo_4").setViewName("data2_demo_4");
+        registry.addViewController("/data2_demo_5").setViewName("data2_demo_5");
 
         registry.addViewController("/training_demo_submit").setViewName("training_demo_submit");
     }

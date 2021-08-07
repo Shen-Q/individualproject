@@ -53,11 +53,4 @@ public class IndexController {
         return "training";
     }
 
-//    @GetMapping("/login/{v1}")
-//    public String loginAs(HttpServletRequest request, HttpServletResponse response,@PathVariable(name = "v1") String v1){
-//        System.out.println(v1);
-//
-//        infoService.login(request,response,new User());
-//        return null;
-//    }
 }

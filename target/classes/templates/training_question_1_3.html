@@ -30,6 +30,7 @@
 <body class="sticky-header">
 
 <section>
+<<<<<<< HEAD
     <!-- sidebar left start-->
     <!-- sidebar left end-->
 
@@ -42,11 +43,20 @@
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
+=======
+
+    <!-- body content start-->
+    <div class="body-con" style="height:500px;width: available">
+>>>>>>> origin/tomcat
 
         <!-- page head start-->
         <div class="page-head">
             <h3 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center">
+<<<<<<< HEAD
                 Please answer the question. ( 3/3 )
+=======
+                What is the best description of trend of Egypt?
+>>>>>>> origin/tomcat
             </h3>
 
         </div>
@@ -54,6 +64,7 @@
         <section class="panel">
             <!--body wrapper start-->
             <div class="wrapper" >
+<<<<<<< HEAD
                 <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >
                     What is the best description of trend of Egypt?
                 </h4>
@@ -78,6 +89,34 @@
 
                         <input type="radio"  name="toasts" value="D" id="error" onclick="a(this)">
                         <label for="error">D.Increasing continuously</label>
+=======
+<!--                <h4 style="font-family: 'Lucida Sans';font-size: 25px;text-align: center" >-->
+<!--                    What is the best description of trend of Egypt?-->
+<!--                </h4>-->
+<!--                <br>-->
+                <br>
+                <div class="form-group" id="toastTypeGroup">
+                    <div class="radio-custom radio-primary" style="font-family: 'Lucida Sans';
+                    font-size: 26px;margin-left: 30%;">
+                        <input type="radio" name="toasts" value="A" id="success" onclick="a(this)">
+                        <label for="success">
+                             Fluctuating</label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio" name="toasts" value="B" id="info-t" onclick="a(this)">
+                        <label for="info-t" >Flat, rising and falling </label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio"  name="toasts" value="C" id="warning"onclick="a(this)">
+                        <label for="warning">Decreasing, and then flat</label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio"  name="toasts" value="D" id="error" onclick="a(this)">
+                        <label for="error"  >Increasing continuously</label>
+>>>>>>> origin/tomcat
                         <br>
                         <br>
 
@@ -157,7 +196,11 @@
 
         document.getElementById("time").value=time;
         document.getElementById("answer").value=ip;
+<<<<<<< HEAD
         // console.log('you are here for' + time + 'seconds');
+=======
+        console.log('you are here for' + time + 'seconds');
+>>>>>>> origin/tomcat
      }
 
 </script>
@@ -168,7 +211,12 @@
         var answer =  document.getElementById("answer").value;
         var time = document.getElementById("time").value;
         console.log('time='+time);
+<<<<<<< HEAD
         window.location.href = "/to_training_introduction_2/"+answer+"/"+time;
+=======
+        // window.location.href = "/to_training_introduction_2/"+answer+"/"+time;
+        window.location.href = "/to_training_demo_2/"+answer+"/"+time;
+>>>>>>> origin/tomcat
     }
 </script>
 

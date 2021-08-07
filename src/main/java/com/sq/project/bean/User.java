@@ -25,6 +25,8 @@ public class User {
     String userWork;
     String userChildhood;
     String userFrom;
+    String userLanguage;
+    String prolificId;
   //  @DateTimeFormat(pattern = "yyyy-mm-dd HH:mm:ss")
     @TableField(fill = FieldFill.INSERT_UPDATE)
     LocalDateTime userCreateTime;
